@@ -1,4 +1,6 @@
-# DFIR Simulation Trainer \n \n
+# DFIR Simulation Trainer 
+\n 
+\n
 ## Description \nThe project delivers a training environment for digital forensics and incident response exercises. Instructors can design scenarios, organise classes and review submissions, while learners investigate evidence and interact with a virtual forensic workstation.\n\n
 ## Installation \nPrerequisites: Node.js, PostgreSQL and Docker.\n\n1. Clone the repository.\n2. Install API dependencies:\n\ncd server\nnpm install\n\n3. Install client dependencies:\n\ncd web_app\nnpm install\n\n4. Create a PostgreSQL database and restore dfir_dump.sql.\n5. Add a server/.env file with PORT, database connection settings, JWT secret and mail configuration.\n\n
 
