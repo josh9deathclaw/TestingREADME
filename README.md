@@ -1,10 +1,12 @@
-# DFIR Simulation Trainer \
-## Description \nThe project delivers a training environment for digital forensics and incident response exercises. Instructors can design scenarios, organise classes and review submissions, while learners investigate evidence and interact with a virtual forensic workstation.\n\n
-## Installation \nPrerequisites: Node.js, PostgreSQL and Docker.\n\n1. Clone the repository.\n2. Install API dependencies:\n\ncd server\nnpm install\n\n3. Install client dependencies:\n\ncd web_app\nnpm install\n\n4. Create a PostgreSQL database and restore dfir_dump.sql.\n5. Add a server/.env file with PORT, database connection settings, JWT secret and mail configuration.\n\n
+# DFIR Simulation Trainer 
+## Description \nThe project delivers a training environment for digital forensics and incident response exercises. Instructors can design scenarios, organise classes and review submissions, while learners investigate evidence and interact with a virtual forensic workstation.
+## Installation 
+Prerequisites: Node.js, PostgreSQL and Docker.\n\n1. Clone the repository. Install API dependencies:\n\ncd server\nnpm install. Install client dependencies:\n\ncd web_app\nnpm install. Create a PostgreSQL database and restore dfir_dump.sql. Add a server/.env file with PORT, database connection settings, JWT secret and mail configuration.
 
-## Usage\n
-### Server\nLaunch the Express API:\n\ncd server\nnpm start\n\nA health check is available at GET /api/health.\n\n
-### Web App\nLaunch the React development server:\n\ncd web_app\nnpm start\n\nThe interface opens on the local development URL.\n\n
+## Usage
+### Server\nLaunch the Express API: cd server npm start 
+A health check is available at GET /api/health.\n\n
+### Web App\nLaunch the React development server: cd web_app npm start The interface opens on the local development URL.
 
 ## Dependency Summary \n
 ### Server\n- bcryptjs\n- cors\n- dockerode\n- dotenv\n- express\n- jsonwebtoken\n- multer\n- nodemailer\n- pg\n- reactflow\n- nodemon\n\n
